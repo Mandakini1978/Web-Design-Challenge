@@ -1,0 +1,64 @@
+h1{
+ color: lightseagreen;
+ font-family: 'Times New Roman', Times, serif;
+}
+h3{
+ color: lightseagreen;
+ font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+    color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;  
+    margin-left: 20px;
+}
+h6{
+    margin-left: 20px;
+}
+.box {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 800;
+    color: black;
+  }
+
+  .large {
+  width: 600px;
+  height: 550px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color:white;
+  }
+  
+  .small {
+  width: 300px;
+  height: 350px;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left:40px;
+  background-color: white;
+  }
+  
+  .container {
+    
+    height: 1000px;
+    background: lightgray;
+  } 
+
+  @media (max-width: 800px) {
+    .navbar-light.bg-light{
+       background-color:lightseagreen !important;
+       
+     }
+   }
+
+    @media (max-width: 600px) {
+        .nav-item li {
+          padding: 10px;
+               }
+            }
